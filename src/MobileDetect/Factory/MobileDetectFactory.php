@@ -3,7 +3,7 @@ namespace Neilime\MobileDetect\Factory;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
-use Psr\Container\ContainerInterface;
+use Interop\Container\ContainerInterface;
 
 /**
  * Class MobileDetectFactory

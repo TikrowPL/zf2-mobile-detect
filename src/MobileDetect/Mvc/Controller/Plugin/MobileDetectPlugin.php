@@ -26,7 +26,7 @@ class MobileDetectPlugin extends AbstractPlugin
      * @throws \LogicException
      * @return \Mobile_Detect
      */
-    public function __invoke(\Zend\Http\Headers $oHeaders = null)
+    public function __invoke(?\Zend\Http\Headers $oHeaders = null)
     {
         $oController = $this->getController();
         if (!$oController) {

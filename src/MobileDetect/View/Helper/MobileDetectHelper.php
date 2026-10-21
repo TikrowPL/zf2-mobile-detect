@@ -25,7 +25,7 @@ class MobileDetectHelper extends AbstractHelper
      *
      * @return \Mobile_Detect
      */
-    public function __invoke(\Zend\Http\Headers $oHeaders = null)
+    public function __invoke(?\Zend\Http\Headers $oHeaders = null)
     {
         if ($oHeaders) {
             $this->mobileDetect->setHttpHeaders($oHeaders->toArray());

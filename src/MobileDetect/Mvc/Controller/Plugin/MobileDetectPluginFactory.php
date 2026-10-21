@@ -3,7 +3,7 @@ namespace Neilime\MobileDetect\Mvc\Controller\Plugin;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 
 class MobileDetectPluginFactory implements FactoryInterface
 {
